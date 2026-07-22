@@ -79,6 +79,7 @@ function Index() {
           <nav className="hidden gap-6 text-sm text-muted-foreground sm:flex">
             <a href="#regiones" className="hover:text-foreground">Regiones</a>
             <a href="#que-donar" className="hover:text-foreground">Qué donar</a>
+            <a href="#sugerir" className="hover:text-foreground">Sugerir</a>
             <a href="#emergencias" className="hover:text-foreground">Emergencias</a>
           </nav>
         </div>
