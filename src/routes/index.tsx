@@ -7,6 +7,7 @@ import {
   ULTIMA_ACTUALIZACION,
   type Region,
 } from "@/lib/acopio-data";
+import { SugerirCentro } from "@/components/sugerir-centro";
 
 export const Route = createFileRoute("/")({
   head: () => ({
