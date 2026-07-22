@@ -14,7 +14,48 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      centros_sugeridos: {
+        Row: {
+          aprobado: boolean
+          comuna: string
+          contacto: string | null
+          created_at: string
+          direccion: string
+          enviado_por: string | null
+          horario: string
+          id: string
+          necesita: string
+          nombre: string
+          region: string
+        }
+        Insert: {
+          aprobado?: boolean
+          comuna: string
+          contacto?: string | null
+          created_at?: string
+          direccion: string
+          enviado_por?: string | null
+          horario: string
+          id?: string
+          necesita: string
+          nombre: string
+          region: string
+        }
+        Update: {
+          aprobado?: boolean
+          comuna?: string
+          contacto?: string | null
+          created_at?: string
+          direccion?: string
+          enviado_por?: string | null
+          horario?: string
+          id?: string
+          necesita?: string
+          nombre?: string
+          region?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
